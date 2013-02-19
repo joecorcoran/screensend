@@ -19,7 +19,7 @@ Add a `~/.screensend` config file like so:
 # Mandatory settings
 SS_REMOTE_HOST="me@someplace"
 SS_REMOTE_DIR="/some/remote/place"
-SS_REMOTE_URL="http://my.domain.me/pics/:file"
+SS_REMOTE_URL="http://my.domain.me/pics/:file"  # :file is replaced with the image filename
 
 # Optional settings
 SS_LOCAL_DIR="${HOME}/screens"                  # Default: ${HOME}/Screenshots

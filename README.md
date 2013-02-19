@@ -13,7 +13,7 @@ $ defaults write com.apple.screencapture location ~/Screenshots/
 $ killall SystemUIServer
 ```
 
-Add a `.screensend` config file like so:
+Add a `~/.screensend` config file like so:
 
 ```
 # Mandatory settings
